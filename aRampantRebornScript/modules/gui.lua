@@ -9,7 +9,7 @@ local Frame = Instance.new("Frame")
 Frame.Size = UDim2.new(0, 200, 0, 150)
 Frame.Position = UDim2.new(0.5, -100, 0.5, -75)
 Frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-Frame.Visible = false
+Frame.Visible = true
 Frame.Parent = ScreenGui
 
 function Gui.init(config)

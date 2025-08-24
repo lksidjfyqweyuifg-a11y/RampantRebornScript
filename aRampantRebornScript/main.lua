@@ -1,7 +1,7 @@
--- Загружаем модули
-local Gui = loadfile("modules/gui.lua")()
-local Dodge = loadfile("modules/dodge.lua")()
-local Abilities = loadfile("modules/abilities.lua")()
+-- Загружаем модули с GitHub
+local Gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/lksidjfyqweyuifg-a11y/RampantRebornScript/main/modules/gui.lua"))()
+local Dodge = loadstring(game:HttpGet("https://raw.githubusercontent.com/lksidjfyqweyuifg-a11y/RampantRebornScript/main/modules/dodge.lua"))()
+local Abilities = loadstring(game:HttpGet("https://raw.githubusercontent.com/lksidjfyqweyuifg-a11y/RampantRebornScript/main/modules/abilities.lua"))()
 
 -- Запуск GUI
 Gui.init({
